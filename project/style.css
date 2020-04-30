@@ -1,110 +1,93 @@
 body {
-  padding: 0 30px;
+  padding: 0;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
-  line-height: 22px;
-  font-family: "Georgia", serif;
-  color: #222222;
+  line-height: 18px;
+  color: #000000;
+  background: #ffffff url("img/keks-background.jpg") no-repeat 50% 0;
 }
 
 h1 {
-  font-size: 32px;
-  line-height: normal;
+  width: 260px;
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 h2 {
-  font-size: 20px;
-  line-height: normal;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
 }
 
-nav {
-  color: #888888;
+.site-header {
+  margin-bottom: 30px;
 }
 
-aside {
-  margin: 20px 0;
-  color: #c4c4c4;
-}
-
-pre,
-code {
-  font-family: "Courier New", "Courier", monospace;
-  color: #6a2cce;
-}
-
-pre {
-  line-height: normal;
-}
-
-blockquote {
-  padding-left: 14px;
-  border-left: 2px solid #6a2cce;
-
-  color: #6a2cce;
-}
-
-cite {
-  color: #222222;
-}
-
-time {
-  color: #6a2cce;
-}
-
-a[href] {
-  color: #0099ef;
-  text-decoration-line: underline;
-}
-
-.days {
-  list-style: none;
-  padding-left: 0;
-}
-
-figure {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-figure img {
-  vertical-align: middle;
-  border: 8px solid rgb(202, 224, 248);
-}
-
-figcaption {
-  width: 502px;
-  padding-bottom: 8px;
-  font-size: 12px;
-  letter-spacing: 0.02em;
-  font-style: italic;
-  text-align: center;
-  background-color: rgb(202, 224, 248);
-}
-
-.pagination a {
-  display: inline-block;
-  margin-right: 30px;
+.skills-item {
   margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #c4c4c4;
+  color: #999999;
 }
 
-.pagination {
+.standart {
+  border-color: #ffc5b3;
+  color: #666666;
+}
+
+/* Добавьте правило ниже */
+
+.vip {
+  border-color: #ff5a26;
+  color: #000000;
+}
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
   text-align: center;
-  color: #888888;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
-.danger-text {
-  color: #ff4400;
+.feature-kitten {
+  padding-top: 60px;
+  background-image: url("img/bottle.svg");
 }
 
-.danger-block {
-  padding: 5px 10px;
-  background-color: #ffd0bf;
+.feature-cat {
+  padding-top: 60px;
+  background-image: url("img/cat.svg");
 }
 
-.no-danger-block {
-  padding: 5px 10px;
-  background-color: #c6f5f0;
+.feature-train {
+  padding-top: 60px;
+  background-image: url("img/whistle.svg");
 }
 
-footer {
-  margin-top: 30px;
+.skills-list {
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
 }
