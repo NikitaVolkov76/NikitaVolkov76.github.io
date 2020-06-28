@@ -336,6 +336,11 @@ body {
   background-color: #212349;
 }
 
-.table {
+table {
   margin: 15%;
+}
+
+th, td {
+  padding: 3px;
+  text-align: center;
 }
