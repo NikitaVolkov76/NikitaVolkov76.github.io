@@ -110,8 +110,8 @@ body {
   content: "";
   top: 24px;
   left: calc(50vw - 32px);
-  width: 800px;
-  height: 800px;
+  width: 754px;
+  height: 740px;
   background-image: url("img/hero-image.svg");
   background-repeat: no-repeat;
 }
@@ -159,15 +159,15 @@ body {
 }
 
 .intro {
-  padding-top: 160px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 0px;
   min-height: 828px;
 }
 
 .subheading {
-  margin: 0 0 100px;
+  margin: 0 0 50px;
   text-align: center;
-  font-size: 72px;
+  font-size: 80px;
   line-height: 88px;
   font-weight: 500;
   color: #f9dd79;
@@ -190,7 +190,7 @@ body {
 
 .intro .container div {
   margin-left: 720px;
-  margin-bottom: 56px;
+  margin-bottom: 60px;
 }
 
 .intro h3,
@@ -258,7 +258,7 @@ body {
 
 .portfolio {
   margin: 0;
-  padding-bottom: 160px;
+  padding: 0px 0px;
 }
 
 .projects {
@@ -270,7 +270,7 @@ body {
 .projects li {
   position: relative;
   min-height: 256px;
-  margin: 0 0 100px;
+  margin: 0 0 50px;
   padding-left: 528px;
 }
 
@@ -279,6 +279,7 @@ body {
   top: 0;
   left: 0;
   margin: 0;
+  padding: 25px;
 }
 
 .project-image img {
@@ -287,17 +288,7 @@ body {
   object-fit: fill;
 }
 
-.project-image1 {
-  position: static;
-  top: 0;
-  left: 0;
-  margin: 0;
-}
-.project-image1 img {
-  width: 448px;
-  height: 256px;
-  object-fit: fill;
-}
+
 
 .projects p {
   margin: 0 0 32px;
@@ -337,10 +328,15 @@ body {
 }
 
 table {
-  margin: 15%;
+  padding: 20px 150px ;
+  max-width: 1170px;
+  margin: 0 auto;
+
 }
+
 
 th, td {
   padding: 6px;
   text-align: center;
 }
+
